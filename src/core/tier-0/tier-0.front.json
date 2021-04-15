@@ -70,13 +70,6 @@
 				"options": []
 			},
 			{
-				"varname": "tier0_create_network_watcher",
-				"type": "boolean",
-				"default_val": false,
-				"description": "Whether to create the network watcher in this tier vnet.",
-				"options": []
-			},
-			{
 				"varname": "subnets.{TIER0_SUBNETVM_NAME}.name",
 				"type": "text",
 				"default_val": "tier0vms",

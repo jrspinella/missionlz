@@ -143,9 +143,3 @@ variable "subnets" {
     }
   }
 }
-
-variable "create_network_watcher" {
-  description = "Deploy a Network Watcher resource alongside this virtual network (there's a limit of one per-subscription-per-region)"
-  type        = bool
-  default     = false
-}
